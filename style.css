@@ -5,12 +5,13 @@
 main{
     height: 80vh;
     background-image: url(assets/images/Background_images.jpg);
+    /* we cann't give the opacity with the image as it change the opacity of the image not the bg */
 }
 
 main .box{
-    height: 80vh;
+    height: 80vh; 
     width: 100%;
     /* making a dommy box in background image and giving it opacity to add text as it make text visible  */
     opacity: 0.32;      
-    background-color: black;
-}
+    background-color: black; 
+ }
