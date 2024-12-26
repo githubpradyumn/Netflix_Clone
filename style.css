@@ -60,22 +60,27 @@ nav button {
     color: white;
     position: relative;
     font-family: 'Martel Sans', sans-serif;
-    gap: 18px;
+    gap: 12px;
     padding: 30px;
 }
 
 .hero> :nth-child(1) {
     font-weight: bolder;
-    font-size: 45px;
+    font-size: 70px;
     text-align: center;
 }
 
 .hero> :nth-child(2){
+    font-weight: bolder;
+    font-size: 60px;
+    text-align: center;
+}
+.hero> :nth-child(3){
     font-weight: 400;
     font-size: 24px;
     text-align: center;
 }
-.hero> :nth-child(3){
+.hero> :nth-child(4){
     font-weight: 400;
     font-size: 20px;
     text-align: center;
