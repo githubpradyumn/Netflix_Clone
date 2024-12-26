@@ -6,8 +6,11 @@
     padding: 0;
     font-family: 'Poppins',sans-serif; 
 }
+body{
+    background-color: black;
+}
 main{
-    height: 80vh;
+    height: 70vh;
     position: relative ;
     background-image: url(assets/images/Background_images.jpg);
     /* we cann't give the opacity with the image as it change the opacity of the image not the bg */
@@ -17,10 +20,10 @@ main{
 }
 
 .main .box{
-    height: 80vh; 
+    height: 70vh; 
     width: 100%;
     /* making a dommy box in background image and giving it opacity to add text as it make text visible  */
-    opacity: 0.40   ;
+    opacity: 0.45  ;
     position: absolute;
     top: 0;      
     background-color: black; 
@@ -58,19 +61,23 @@ nav button {
     position: relative;
     font-family: 'Martel Sans', sans-serif;
     gap: 18px;
+    padding: 30px;
 }
 
-.hero :first-child {
+.hero> :nth-child(1) {
     font-weight: bolder;
     font-size: 45px;
+    text-align: center;
 }
 
-.hero :nth-child(2){
+.hero> :nth-child(2){
     font-weight: 400;
     font-size: 24px;
+    text-align: center;
 }
-.hero :nth-child(3){
+.hero> :nth-child(3){
     font-weight: 400;
     font-size: 20px;
+    text-align: center;
 }
 
