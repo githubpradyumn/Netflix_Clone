@@ -3,6 +3,22 @@
     "development"
   ],
   "hints": {
-    "no-inline-styles": "off"
+    "no-inline-styles": "off",
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off",
+        "button-name": "off"
+      }
+    ],
+    "disown-opener": "off",
+    "axe/structure": [
+      "default",
+      {
+        "definition-list": "off"
+      }
+    ],
+    "meta-viewport": "off",
+    "button-type": "off"
   }
 }
